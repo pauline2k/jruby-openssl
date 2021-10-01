@@ -73,7 +73,7 @@ public class VerifyParameter {
         purpose = 0;
         trust = 0;
         inheritFlags = X509Utils.X509_VP_FLAG_DEFAULT;
-        flags = 0;
+        flags = X509Utils.X509_V_FLAG_TRUSTED_FIRST;
         depth = -1;
         policies = null;
     }
